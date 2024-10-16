@@ -1,0 +1,22 @@
+version: '3'
+services:
+  storage-node-1:
+    build: .
+    ports:
+      - "8081:8080"
+    environment:
+      - NODE_ID=1
+
+  storage-node-2:
+    build: .
+    ports:
+      - "8082:8080"
+    environment:
+      - NODE_ID=2
+
+  storage-node-3:
+    build: .
+    ports:
+      - "8083:8080"
+    environment:
+      - NODE_ID=3

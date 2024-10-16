@@ -1,0 +1,109 @@
+/* General Page Styles */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  } */
+  
+  .Dashcontainer {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .DashHeading2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Error Message Styles */
+  .error-message {
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* File List Styles */
+  .Dashul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Dashli {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .Dashli:hover {
+    background-color: #e9e9e9;
+  }
+  
+  .Dasha {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .Dasha:hover {
+    text-decoration: underline;
+  }
+  
+  /* Delete Button Styles */
+  .DelDashbutton {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .DelDashbutton:hover {
+    background-color: #c0392b;
+  }
+
+  /* Upload Button style*/
+
+  .UploadDash {
+    background-color: #3c92e7;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  .UploadDash:hover {
+    background-color: #2b64c0;
+  }
+  
+  /* File Upload Component Styles */
+  .file-upload {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="file"] {
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+  }
+  
+  input[type="file"]:hover {
+    border-color: #2980b9;
+  }
+  
